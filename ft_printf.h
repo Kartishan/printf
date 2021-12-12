@@ -24,15 +24,16 @@ int						ft_putchar(int c);
 int						ft_precent(void);
 int						ft_putstr(const char *str);
 int						ft_chforsix(unsigned int ch);
+char					*strret(char *str, unsigned long long int ch,
+							unsigned int i);
 int						ft_lowperevod(unsigned int ch);
 int						ft_perevod(unsigned int ch);
 int						ft_pp(unsigned long long int ch);
 long int				negcheckint(long int n);
+long int				nbret(long int t);
 int						ft_printnbr(int n);
 unsigned long long int	checknegativeunsignded(unsigned int n);
 int						ft_unsignedprintnbr(unsigned int n);
 unsigned int			ft_chforlsix(unsigned long long int ch);
-char					*strret(char *str, unsigned long long int ch,
-							unsigned int i);
 
 #endif
