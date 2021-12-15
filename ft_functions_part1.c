@@ -67,7 +67,7 @@ char	*strret(char *str, unsigned long long int ch, unsigned int i)
 	while (1)
 	{
 		if (ch % 16 >= 10)
-			str[i] = ((ch % 16) - 10 ) + 'a';
+			str[i] = ((ch % 16) - 10) + 'a';
 		else
 			str[i] = (ch % 16) + '0';
 		ch = ch / 16;

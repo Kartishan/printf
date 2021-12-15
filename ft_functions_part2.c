@@ -43,7 +43,7 @@ int	ft_perevod(unsigned int ch)
 	while (1)
 	{
 		if (ch % 16 >= 10)
-			str[i] = ((ch % 16) - 10 ) + 'A';
+			str[i] = ((ch % 16) - 10) + 'A';
 		else
 			str[i] = (ch % 16) + '0';
 		ch = ch / 16;
